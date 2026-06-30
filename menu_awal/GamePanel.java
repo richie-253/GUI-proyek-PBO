@@ -297,10 +297,10 @@ public class GamePanel extends JPanel implements KeyListener {
                 playerBoat.draw(g2); 
             } 
         }
-        else if(currentState == STATE_FISH_LIST){
+        else if(currentState == STATE_FISH_LIST){ // Pemanggilan nama menu
             fishListMenu.draw(g2, w, h);
         }
-        else if(currentState == STATE_INVENTORY)
+        else if(currentState == STATE_INVENTORY) // Pemanggilan gambar inventory
         {
             inventoryMenu.draw(g2, w, h, globalInventory);
         }
