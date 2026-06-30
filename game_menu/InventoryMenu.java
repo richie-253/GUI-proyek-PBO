@@ -1,3 +1,5 @@
+// Inventory meny
+
 package game_menu;
 
 import entities.Inventory;
