@@ -27,8 +27,8 @@ public class GamePanel extends JPanel implements KeyListener {
     int STATE_DOCK_MENU = 1; 
     int STATE_PLAYING = 2;   
     int STATE_SHOP = 3;      
-    int STATE_INVENTORY = 4; 
-    int STATE_FISH_LIST = 5; 
+    int STATE_INVENTORY = 4; // Jika player ada di state 4 (inventory menu)
+    int STATE_FISH_LIST = 5; // Jika player ada di state 5 (fishlist menu)
     int STATE_PORT_MENU = 6;
 
     int currentState = STATE_MENU;
