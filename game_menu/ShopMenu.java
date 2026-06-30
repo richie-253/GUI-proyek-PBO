@@ -174,6 +174,42 @@ public class ShopMenu {
             g2.drawImage(failBg, 0, 0, w, h, null);
         }
     }
+
+
+    //  public void draw(Graphics2D g2, int w, int h) {
+    //     // 1. Gambarkan background toko utama
+    //     if (shopBg != null) {
+    //         g2.drawImage(shopBg, 0, 0, w, h, null);
+    //     }
+
+    //     // 2. Tentukan koordinat Tanda Panah Selektor 
+    //     int arrowX = 0;
+    //     int arrowY = 0;
+
+    //     if (selectedSlot == 1) { arrowX = 170; arrowY = 540; } // Tombol Trade Slot 1
+    //     else if (selectedSlot == 2) { arrowX = 680; arrowY = 540; } // Tombol Trade Slot 2
+    //     else if (selectedSlot == 3) { arrowX = 1170; arrowY = 520; } // Tombol Trade Slot 3
+    //     else if (selectedSlot == 4) { arrowX = 335; arrowY = 915; } // Tombol Trade Slot 4
+    //     else if (selectedSlot == 5) { arrowX = 965; arrowY = 915; } // Tombol Trade Slot 5
+
+    //     // 3. Menggambar bentuk fisik Tanda Panah (Warna Merah Segitiga Retro / Teks Berkedip)
+    //     g2.setColor(Color.YELLOW);
+    //     g2.setFont(new Font("Arial", Font.BOLD, 50));
+    //     g2.drawString(">", arrowX - 30, arrowY); // Menggambar panah penunjuk tepat di kiri tombol
+
+    //     // 4. JIKA GAGAL: Gambar Overlay Background Pop-Up Gagal di tengah layar
+    //     if (showFailPopUp && failBg != null) {
+    //         g2.drawImage(failBg, 0, 0, w, h, null);
+    //     }
+    // }
+    
     
     public boolean isShowFailPopUp() { return showFailPopUp; }
+
+    
+    
+
+
+
+    
 }
